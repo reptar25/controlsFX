@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="19" failures="0" name="org.controlsfx.control.spreadsheet.SpreadsheetViewTest" time="0.282" errors="0" skipped="1">
+  <properties>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="sun.boot.library.path" value="F:\Users\Kevin\Downloads\java-1.8.0-openjdk-1.8.0.171-1.b10.ojdkbuild.windows.x86_64\java-1.8.0-openjdk-1.8.0.171-1.b10.ojdkbuild.windows.x86_64\jre\bin"/>
+    <property name="java.vm.version" value="25.171-b10"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="F:\Users\Kevin\Downloads\controlsfx-controlsfx-420064652b36\controlsfx-controlsfx-420064652b36\controlsfx"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="F:\Users\Kevin\Downloads\controlsfx-controlsfx-420064652b36\controlsfx-controlsfx-420064652b36\controlsfx"/>
+    <property name="java.runtime.version" value="1.8.0_171-1-ojdkbuild-b10"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="F:\Users\Kevin\Downloads\java-1.8.0-openjdk-1.8.0.171-1.b10.ojdkbuild.windows.x86_64\java-1.8.0-openjdk-1.8.0.171-1.b10.ojdkbuild.windows.x86_64\jre\lib\endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\Kevin\AppData\Local\Temp\"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="classworlds.conf" value="F:\workspace\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf2533570668632970209.tmp"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="F:\Users\Kevin\Downloads\java-1.8.0-openjdk-1.8.0.171-1.b10.ojdkbuild.windows.x86_64\java-1.8.0-openjdk-1.8.0.171-1.b10.ojdkbuild.windows.x86_64\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Program Files/Java/jdk1.8.0_73/jre/bin/server;C:/Program Files/Java/jdk1.8.0_73/jre/bin;C:/Program Files/Java/jdk1.8.0_73/jre/lib/amd64;C:\Program Files\Java\jdk1.8.0_161\bin;C:\Windows\System32;C:\Program Files\ImageMagick-7.0.3-Q16;C:\Program Files (x86)\Razer Chroma SDK\bin;C:\Program Files\Razer Chroma SDK\bin;C:\Program Files (x86)\Google\Chrome\Application;C:\Users\Kevin\Downloads\apache-ant-1.9.7-bin\apache-ant-1.9.7\bin;C:\Program Files\Microsoft SQL Server\110\Tools\Binn\;C:\Program Files (x86)\AMD\ATI.ACE\Core-Static;C:\Users\Kevin\Downloads\apache-maven-3.3.9-bin\apache-maven-3.3.9\bin;C:\Program Files (x86)\Skype\Phone\;C:\Program Files (x86)\WiX Toolset v3.10\bin;C:\Program Files (x86)\Inno Setup 5;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Users\Kevin\AppData\Local\Microsoft\WindowsApps;C:\WINDOWS\system32;;."/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.0"/>
+    <property name="user.home" value="C:\Users\Kevin"/>
+    <property name="user.timezone" value="America/Los_Angeles"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="user.name" value="Kevin"/>
+    <property name="java.class.path" value="/C:/Users/Kevin/eclipse/java-mars/eclipse/../../../.p2/pool/plugins/org.eclipse.m2e.maven.runtime_1.7.0.20160603-1931/jars/plexus-classworlds-2.5.2.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="F:\Users\Kevin\Downloads\java-1.8.0-openjdk-1.8.0.171-1.b10.ojdkbuild.windows.x86_64\java-1.8.0-openjdk-1.8.0.171-1.b10.ojdkbuild.windows.x86_64\jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -B deploy"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_171-1-ojdkbuild"/>
+    <property name="java.ext.dirs" value="F:\Users\Kevin\Downloads\java-1.8.0-openjdk-1.8.0.171-1.b10.ojdkbuild.windows.x86_64\java-1.8.0-openjdk-1.8.0.171-1.b10.ojdkbuild.windows.x86_64\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="F:\Users\Kevin\Downloads\java-1.8.0-openjdk-1.8.0.171-1.b10.ojdkbuild.windows.x86_64\java-1.8.0-openjdk-1.8.0.171-1.b10.ojdkbuild.windows.x86_64\jre\lib\resources.jar;F:\Users\Kevin\Downloads\java-1.8.0-openjdk-1.8.0.171-1.b10.ojdkbuild.windows.x86_64\java-1.8.0-openjdk-1.8.0.171-1.b10.ojdkbuild.windows.x86_64\jre\lib\rt.jar;F:\Users\Kevin\Downloads\java-1.8.0-openjdk-1.8.0.171-1.b10.ojdkbuild.windows.x86_64\java-1.8.0-openjdk-1.8.0.171-1.b10.ojdkbuild.windows.x86_64\jre\lib\jsse.jar;F:\Users\Kevin\Downloads\java-1.8.0-openjdk-1.8.0.171-1.b10.ojdkbuild.windows.x86_64\java-1.8.0-openjdk-1.8.0.171-1.b10.ojdkbuild.windows.x86_64\jre\lib\jce.jar;F:\Users\Kevin\Downloads\java-1.8.0-openjdk-1.8.0.171-1.b10.ojdkbuild.windows.x86_64\java-1.8.0-openjdk-1.8.0.171-1.b10.ojdkbuild.windows.x86_64\jre\lib\charsets.jar"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="F:\Users\Kevin\Downloads\controlsfx-controlsfx-420064652b36\controlsfx-controlsfx-420064652b36\controlsfx\EMBEDDED"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase classname="org.controlsfx.control.spreadsheet.SpreadsheetViewTest" name="testIsFixingRowsAllowed" time="0.009"/>
+  <testcase classname="org.controlsfx.control.spreadsheet.SpreadsheetViewTest" name="testSetEditable" time="0.017"/>
+  <testcase classname="org.controlsfx.control.spreadsheet.SpreadsheetViewTest" name="testCopyClipBoard" time="0.029"/>
+  <testcase classname="org.controlsfx.control.spreadsheet.SpreadsheetViewTest" name="testIsShowColumnHeader" time="0.011"/>
+  <testcase classname="org.controlsfx.control.spreadsheet.SpreadsheetViewTest" name="testGetSpanType" time="0.012"/>
+  <testcase classname="org.controlsfx.control.spreadsheet.SpreadsheetViewTest" name="testDeleteSelectedCells" time="0.009"/>
+  <testcase classname="org.controlsfx.control.spreadsheet.SpreadsheetViewTest" name="testAreRowsFixable" time="0.012"/>
+  <testcase classname="org.controlsfx.control.spreadsheet.SpreadsheetViewTest" name="testSetShowRowHeader" time="0.01"/>
+  <testcase classname="org.controlsfx.control.spreadsheet.SpreadsheetViewTest" name="testSetFixingRowsAllowed" time="0.008"/>
+  <testcase classname="org.controlsfx.control.spreadsheet.SpreadsheetViewTest" name="testSelectionModel" time="0.02"/>
+  <testcase classname="org.controlsfx.control.spreadsheet.SpreadsheetViewTest" name="testIsFixingColumnsAllowed" time="0.027"/>
+  <testcase classname="org.controlsfx.control.spreadsheet.SpreadsheetViewTest" name="testGetEditor" time="0.047"/>
+  <testcase classname="org.controlsfx.control.spreadsheet.SpreadsheetViewTest" name="testCopyClipBoardNull" time="0.015"/>
+  <testcase classname="org.controlsfx.control.spreadsheet.SpreadsheetViewTest" name="testIsRowFixable" time="0.018"/>
+  <testcase classname="org.controlsfx.control.spreadsheet.SpreadsheetViewTest" name="testSetShowColumnHeader" time="0.007"/>
+  <testcase classname="org.controlsfx.control.spreadsheet.SpreadsheetViewTest" name="testGetRowHeight" time="0.007"/>
+  <testcase classname="org.controlsfx.control.spreadsheet.SpreadsheetViewTest" name="testIsColumnFixable" time="0.008">
+    <skipped/>
+  </testcase>
+  <testcase classname="org.controlsfx.control.spreadsheet.SpreadsheetViewTest" name="testIsShowRowHeader" time="0.006"/>
+  <testcase classname="org.controlsfx.control.spreadsheet.SpreadsheetViewTest" name="testSetFixingColumnsAllowed" time="0.01"/>
+</testsuite>
